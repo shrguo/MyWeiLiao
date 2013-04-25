@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+>
+<LinearLayout 
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:paddingTop="20dip"
+
+
+>
+
+<com.terry.ScrollLayout
+ 
+  android:id="@+id/ScrollLayoutTest"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+ >
+  
+</com.terry.ScrollLayout>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" 
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/buttonlist"
+              android:layout_weight="6"
+              android:background="@drawable/dock"
+              android:gravity="center"
+      
+              >
+           <!--    <TableLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/icons"
+                  > 
+              
+              </TableLayout>-->
+              <GridView 
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:numColumns="4"
+              android:id="@+id/iconlist"
+              >
+              </GridView>
+             
+
+</LinearLayout>
+
+</LinearLayout>

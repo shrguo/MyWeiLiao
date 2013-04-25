@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+    <TextView  
+    android:id="@+id/textView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="简易桌面1.0"
+    android:gravity="center"
+    android:textSize="20pt"
+    ></TextView>
+ <TextView  
+    android:id="@+id/textView2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="  简易桌面是本人闲来无事自己写的一个轻量级桌面功能简单 ，
+        由于本人喜欢简洁一点的桌面我只想解锁之后就进入app列表所以写了这个，喜欢的朋友便拿去使用我在这里说一声谢谢您的支持，不喜欢的朋友也请勿抛砖毕竟android开发这块我也才新手上路，谢谢！"
+    android:singleLine="false"
+    ></TextView>
+     <TextView  
+    android:id="@+id/textView3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="作者:Terry "
+    android:gravity="left"
+    
+    ></TextView>
+    
+       <TextView  
+    android:id="@+id/textView3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="乐蛙ID：songyu719"
+    android:gravity="left"
+    
+    ></TextView>
+     <TextView  
+    android:id="@+id/textView4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="QQ:50713054"
+    android:gravity="left"
+  
+    ></TextView>
+</LinearLayout>

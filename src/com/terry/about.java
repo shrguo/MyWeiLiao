@@ -17,6 +17,7 @@ public class about extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.about);
+		//System.out.println("ddd");
 	}
 
 }
